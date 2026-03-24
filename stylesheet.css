@@ -1,0 +1,106 @@
+
+body {
+    margin: 0;
+    background-image: url("bg\ 2.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    background-attachment: fixed; /* ⭐ This makes BG NOT scroll */
+}
+
+section {
+    height: 100vh;
+    padding: 20px;
+    margin: 20px;
+    background-color: rgba(60, 59, 57, 0.412);
+    
+}
+html {
+            scroll-behavior: smooth;
+        }
+
+
+        header {
+            background: #333;
+            color: white;
+            padding: 15px;
+            text-align: center;
+        }
+
+        nav a {
+            color: rgba(255, 255, 255, 0.366);
+            margin: 10px;
+            text-decoration: none;
+        }
+#Home{
+    font-family: 'Courier New', Courier, monospace;
+    color: azure;
+    background-color: rgba(68, 71, 71, 0);
+    height: 80vh;              /* full screen height */
+  display: flex;
+    justify-content: center;    /* horizontal center */
+    align-items: center;
+}
+i {
+    text-align: center;
+    font-size: 450%;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#Habout {
+            background: #333;
+            color: white;
+            padding: 5px;
+            
+        }
+img {
+  display: block;
+  margin-left: 0;     /* left */
+  margin-right: auto;
+}
+.img {
+  display: flex;
+  gap: 10px; /* space between images */
+}
+.aa {
+  display: flex;
+  gap: 10px; /* space between images */
+}
+.divider {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-align: center;
+  color: aliceblue;
+}
+
+.divider::before,
+.divider::after {
+  content: " ";
+  flex: 1;
+  height: 1px;
+  background-color: rgb(255, 255, 255);
+}
+
+.divider span {
+  margin: 0 20px;
+}
+input, textarea {
+    width: 300px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: cyan;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: lightblue;
+}
